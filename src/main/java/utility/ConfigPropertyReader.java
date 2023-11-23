@@ -8,7 +8,7 @@ import java.util.Properties;
 public class ConfigPropertyReader {
 	public static Properties getPropertyObjects() throws IOException {
 		
-		InputStream fis = new FileInputStream("D:\\Eclipse\\PasswordVaultProject\\src\\main\\java\\config\\config.properties");
+		InputStream fis = new FileInputStream("path of config.properties file");
 		
 		Properties prop = new Properties();
 		
