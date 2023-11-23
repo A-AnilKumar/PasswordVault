@@ -7,7 +7,7 @@ The user credentials are stored in a database using the **JDBC API**, security q
 	
 # Requirements : 
 **Java** installed on your machine
-**Maven dependencies** :
+**Maven dependencies** 
 **MySQL JDBC Connector**
 **Bcrypt** hashing algorithm dependency
 	
