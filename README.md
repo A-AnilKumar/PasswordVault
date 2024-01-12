@@ -6,16 +6,23 @@ The user credentials are stored in a database using the **JDBC API**, security q
 # To Run 
 	
 # Requirements : 
+
 **Java** installed on your machine
+
 **Maven dependencies** 
+
 **MySQL JDBC Connector**
+
 **Bcrypt** hashing algorithm dependency
 	
-Make changes according to your details in the **config.properties** file.
+# Make changes according to your details in the **config.properties** file.
 username, password, and database url
+
 
 Also, provide the path for the “path of config.properties file” in the  **ConfigPropertyReader.java** file in utility package.
 
+
 Make sure that you have already created a database named **“passwordvault”** before running the application, and a table named **“accountstable”** with the following list : 
-  **Username, password, password, securityquestion and securityans**.
+  **Username, password, mailId , securityquestion and securityans**.
+  
   The above list can be found in the code. 
